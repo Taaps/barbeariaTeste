@@ -1,51 +1,145 @@
-body {
-	
-	}
-.tituloDaPagina{
-	padding-left: 15px;
-	font-size: 40px;
+header {
+    background-color: #ddceae;
+    padding: 20px 0;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 55px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.6s all;
+}
+nav a:hover {
+    color: #b36500;
+    cursor: pointer;
+}
+.produtos{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #ddceae;
+    border-top-color: #c2a463;
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 7px;
+    border-left-width: 7px;
+    border-radius: 10px 20px 40px 40px;
+    transition: 1s all;
+}
+.produtos li:hover{
+    border-color: #b36500;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.produtos li:active .price{
+    border-color: #b36500;
+    font-size: 30px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 20px;
+}
+.price{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    /* para usar imagem como fundo background: url(bg.jpg)*/
+    background-color: #ddceae;
+    padding: 40px 0;
+}
+.copyrigth{
+    color: #ffffff;
+    margin: 20px 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin:40px 0;
+}
+form label, form legend{
+    display:block;
+    font-size: 17px;
+    margin:0 0 7px 0;
+}
+.input-padrao{
+    display: block;
+    margin:0 0 7px 0 ;
+    padding: 10px 20px;
+    width: 50%;
+}
+.checkbox{
+    margin:20px 0;
+}
+.envia{
+    width: 50%;
+    padding: 15px 0;
+    background: #ddceae;
+    color: white;
+    font-weight: bold;
+    border-color: #b36500;
+    border-radius:5px 10px 20px 15px;
+    transition: 1s all;
 
 }
+.envia:hover{
+    background: #b36500;
+   cursor: pointer;
+   transform: scale(1.05);
 
-#banner{
-	width: 100%;
-	}
-
-.principal{
-	background: #cccccc;
-	padding: 20px;
 }
-
-.tituloCentralizado {
-	text-align: center;
-	}
-
-p{
-	text-align: center;
-	}
-
-#missao{
-	 font-size: 20px
-	 	}
-
-em strong{
-	color:#ff0000;
-	}
-.itens{
-	font-style: italic;
+table{
+    margin: 10px 0 40px 0;
 }
-.beneficios{
-	background: #ffffff;
-	padding: 20px;
-}
+thead{
+    background: #b36500;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1.5px;
+    color: #ffffff;
+    margin: 1px;
 
-ul{
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
 }
-
-.imagemBeneficios{
-	width: 40%;
+td,th{
+    border: 1px solid #b36500;
+    padding:20px 15px; 
+}
+tbody{
+    background: #ddceae;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1.5px;
+    color: #000000;
 }
