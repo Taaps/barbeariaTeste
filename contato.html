@@ -2,9 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Contato - Barbearia Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); </style>
     </head>
     <body>
         <header>
@@ -22,71 +27,74 @@
         </header>
 
         <main>
-            <form>
-                <label for="nomesobrenome">Nome e Sobrenome:</label>
-                <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu Nome Sobrenome"> 
+            <div class="background">
+                <div class="input-produtos">
+                    <form>
+                        <label for="nomesobrenome">Nome e Sobrenome:</label>
+                        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu Nome Sobrenome"> 
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" class="input-padrao" required placeholder="seuEmail@dominio.com">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="seuEmail@dominio.com">
 
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" class="input-padrao"required placeholder="(11)912345678">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" class="input-padrao"required placeholder="(11)912345678">
 
-                <label for="mensagem">Mensagem</label>
-                <textarea rows="10" id="mensagem" class="input-padrao" required placeholder="Sua solicitação"></textarea>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea rows="10" id="mensagem" class="input-padrao" required placeholder="Sua solicitação"></textarea>
 
-                <fieldset>
-                    <legend>Forma de contato?</legend>
-                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-                    
+                        <fieldset>
+                            <legend>Forma de contato?</legend>
+                            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                            
 
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
-                     
+                            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                             
 
-                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                    
-                </fieldset>
-                <fieldset>
-                    <p class="checkbox">Qual horário prefere ser atendido?</p>
-                    <select>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                    </select>
-                </fieldset>
-                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
-                <input type="submit" value="Enviar Formulario" class="envia">
-
-            </form> 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Segunda</td>
-                        <td>8h-18h</td>
-                    </tr>
-                    <tr>
-                        <td>Terça</td>
-                        <td>8h-18h</td>
-                    </tr>
-                    <tr>
-                        <td>Quarta</td>
-                        <td>8h-18h</td>
-                    </tr>
-                    <tr>
-                        <td>Quinta</td>
-                        <td>8h-18h</td>
-                    </tr>
-                    <tr>
-                        <td>Sexta</td>
-                        <td>8h-18h</td>
-                    </tr>
-                </tbody>
-            </table>   
+                            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                            
+                        </fieldset>
+                        <fieldset>
+                            <p class="checkbox">Qual horário prefere ser atendido?</p>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                            </select>
+                        </fieldset>
+                        <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+                        <input type="submit" value="Enviar Formulario" class="envia">
+                    </form> 
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda</td>
+                                <td>8h-18h</td>
+                            </tr>
+                            <tr>
+                                <td>Terça</td>
+                                <td>8h-18h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta</td>
+                                <td>8h-18h</td>
+                            </tr>
+                            <tr>
+                                <td>Quinta</td>
+                                <td>8h-18h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta</td>
+                                <td>8h-18h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>   
+            </div>
         </main>
 
         <footer>
