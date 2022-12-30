@@ -91,8 +91,6 @@ footer{
     color: #ffffff;
     margin: 20px 0;
 }
-main{
-}
 form{
     margin:40px 0;
 }
@@ -245,28 +243,19 @@ tbody{
     }
     nav li {
     display: block;}
-    }
+    
     form{
     margin:40px 20px;
     }
     .lista-beneficios, .imagemBeneficios {
-        width: 100%
+        width: 100%;
     }
     .produtos li{
-    display: block;
-    text-align: center;
-    width: 90%;
-    vertical-align: top;
-    margin: 0 5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-color: #ddceae;
-    border-top-color: #c2a463;
-    border-width: 2px;
-    border-style: solid;
-    border-top-width: 7px;
-    border-left-width: 7px;
-    border-radius: 10px 20px 40px 40px;
-    transition: 1s all;
-    box-shadow: -3px -3px 15px rgba(0,0,0,0.2);
+        display: inline-block;
+        width: 90%;
+        margin: 0 5%;
+    }
+    table {
+        margin: 10px 0 40px 5%;
+    }
 }
